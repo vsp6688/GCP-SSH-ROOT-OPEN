@@ -10,6 +10,7 @@ wget -qO- git.io/fpQWf | bash
 ```
 执行上述命令后，出现如下图所示内容，以后就无需科学上网环境，使用SSH客户端软件就能连接到谷歌云了。  
 ![avatar](img/gcproot.jpg)  
+
 #1 3、Ubuntu 18.04系统的方法   
 执行上述第1、2步后，修改SSH的配置文件
 ```bash
