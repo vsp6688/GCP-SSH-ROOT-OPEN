@@ -1,10 +1,10 @@
 # 一键开启GCP实例的密码与root用户登陆
-#1 1、设置root的密码
+## 1、设置root的密码
 ```bash
 sudo -i
 passwd root
 ```
-#1 2、一键开启谷歌云实例的密码与root用户登陆
+## 2、一键开启谷歌云实例的密码与root用户登陆
 ```bash
 wget -qO- git.io/fpQWf | bash
 ```
