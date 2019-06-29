@@ -1,5 +1,5 @@
 # 一键开启GCP实例的密码与root用户登陆
-### 1、设置root的密码
+#### 1、设置root的密码
 ```bash
 sudo -i
 passwd root
