@@ -7,8 +7,10 @@ passwd root
 2、一键开启谷歌云实例的密码与root用户登陆
 ```bash
 wget -qO- git.io/fpQWf | bash
+
+备份版本
+wget -qO- https://raw.githubusercontent.com/vsp6688/GCP-SSH-ROOT-OPEN/master/gcp_root_ssh.sh | bash
 ```
-```wget -qO- https://raw.githubusercontent.com/vsp6688/GCP-SSH-ROOT-OPEN/master/gcp_root_ssh.sh | bash```
 执行上述命令后，出现如下图所示内容，以后就无需科学上网环境，使用SSH客户端软件就能连接到谷歌云了。  
 ![avatar](img/gcproot.jpg)  
 
